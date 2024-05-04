@@ -15,7 +15,7 @@ class Storage(ABC):
 class JSONStorage(Storage):
     """Напиши комментарий"""
 
-    async def read(self):
+    async def read_data(self):
         # TODO Метод не работает...
         with open('data.json') as file:
             return json.load(file)
