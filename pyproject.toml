@@ -5,10 +5,14 @@ description = ""
 authors = ["Mikhail <podbereznikov34@gmail.com>"]
 readme = "README.md"
 
+[tool.pytest.ini_options]
+testpaths = tests
+
 [tool.poetry.dependencies]
 python = "^3.11"
 fastapi = "^0.111.0"
 uvicorn = {extras = ["standart"], version = "^0.29.0"}
+pytest = "^8.2.0"
 
 
 [build-system]
