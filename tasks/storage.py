@@ -19,7 +19,7 @@ class JSONStorage(Storage):
     curr_dir = os.path.dirname(os.path.abspath(__file__))
     _path = os.path.join(curr_dir, 'data.json')
 
-    async def read(self) -> dict:
+    async def read_data(self) -> dict:
         # TODO Метод не работает...
         with open(self._path) as file:
             return json.load(file)
