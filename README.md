@@ -32,5 +32,5 @@
  title: string
  completed: bool
  created_at: datetime
- update_at: datetime
+ updated_at: datetime
 ```
