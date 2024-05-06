@@ -31,4 +31,6 @@
  id: int
  title: string
  completed: bool
+ created_at: datetime
+ update_at: datetime
 ```
